@@ -122,13 +122,13 @@ int main()
                     {
                         if(o[j][i].present[id]==1)
                         {
-                            cout<<o[j][i].present[id]<<" id"<<endl;
-                            cout<<' '<< id<<"present"<<endl;
+                            cout<<o[j][i].present[id]<<endl;
+                            cout<<" id "<< id<<"present"<<endl;
                         }
                         else  if(o[j][i].present[id]==2)
                         {
                             cout<<o[j][i].present[id]<<endl;
-                            cout<<" id"<<' '<< id<<"absent"<<endl;
+                            cout<<" id "<< id<<"absent"<<endl;
                         }
                         else
                         {
