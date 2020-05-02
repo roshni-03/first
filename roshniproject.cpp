@@ -38,6 +38,8 @@ int main()
     int w;
     while(cin>>w)
     {
+        if(w==0)
+            break;
         if(w==1)
         {
             file.open("STUDENT5",ios::in |ios::out);
@@ -141,5 +143,7 @@ int main()
             }
             file.close();
         }
+        cout<<"PRESS 0 TO EXIT OR PRESS 1 OR 2 FOR PREVIOUS OPERATION"<<endl;
+        cout<<endl;   
     }
 }
